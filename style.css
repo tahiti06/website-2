@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url(fonts/Montserrat-Black.ttf);
+}
+
+.title{
+    font-family: 'Montserrat-Black';
+    position: relative;
+    font-size: 50px;
+}
+
+body{
+    font-family: 'Montserrat-Regular';
+    margin: 0px;
+    color: white;
+    background-color: #000000;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    font-size: 10px;
+    top: 870px;
+    padding: 20px;
+}
+
+.computer{
+    border-radius: 20px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: #ffffff;
+    color: black;
+    border-radius: 100px;
+}
+
+.navbar li{
+    float: left;
+}
